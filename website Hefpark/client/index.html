@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <title>Welcome To Perth</title>
+  <meta name="keywords" content="">
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width">
+  
+  <meta property="og:title" content="">
+	<meta property="og:type" content="website">
+	<meta property="og:url" content="">
+	<meta property="og:site_name" content="">
+	<meta property="og:description" content="">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/animate.css">
+  <link href='http://fonts.googleapis.com/css?family=Dr+Sugiyama|Lato:400,100,100italic,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+  
+
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/main.css">
+
+  <!-- <script src="js/modernizr-2.7.1.js"></script> -->
+
+  <!-- Fav and touch icons -->
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/apple-touch-icon-144-precomposed.png">
+  <link rel="apple-touch-icon-precomposed" sizes="114x114" href="/apple-touch-icon-114-precomposed.png">
+  <link rel="apple-touch-icon-precomposed" sizes="72x72" href="/apple-touch-icon-72-precomposed.png">
+  <link rel="apple-touch-icon-precomposed" href="/apple-touch-icon-57-precomposed.png">
+  <link rel="shortcut icon" href="/favicon.ico">
+  <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+</head>
+
+<body>
+
+    <div class="navbar navbar-inverse navbar-static-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <!-- <a class="navbar-brand" href="index.html"><img src="img/logo.png" alt="Logo"></a> -->
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div><!--/.navbar-collapse -->
+      </div>
+    </div>
+
+    <!--Header-->
+    <section id="header">
+      <div class="container">
+        <div class="row header-text">
+          <div class="col-sm-8 pull-right text-right">
+           <div class="margin-100">
+            <h1>_</h1>
+            <h3>Een stijlvolle en interactieve prullenbak waardoor je <strong><em>nooit meer</em></strong> zult willen stoppen met opruimen!</h3>
+           </div>
+            <!-- <a href="#" class="btn btn-primary btn-lg">Download <i class="fa fa-cloud-download"></i></a> -->
+          </div>
+        </div>
+        
+        <div class="row">
+          <div class="col-sm-4 text-center wow fadeInUp">
+            <img class="header-img" src="img/logo.png" alt="Header Image">
+          </div>
+        </div>
+        
+      </div>
+    </section>
+    
+    
+    <!--Main 1-->
+    <section id="main1">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-8 margin-30">
+            <h2>Wat doet Bixby?</h2><br />
+            <p>Met deze interactieve prullenbak willen wij initiatiefnemers motiveren om met elkaar het Hefpark schoon te houden. De prullenbak draagt hier aan bij door een
+              muzikale lichtshow te bieden nadat er betaald is met een stukje afval. De bezoekers kunnen dan 30 seconden lang muziek maken door te trommelen op de prullenbak.
+              Er staan meerdere prullenbakken aan elkaar gelinkt op het terrein. Hierdoor kunnen meerdere mensen met elkaar een muziek- en  lichtshow maken. Gaaf!
+            </p><br />
+            <blockquote>
+              Als u geïntereseerd bent in dit project en graag op de hoogte wilt blijven van deze ontwikkelingen, dan bent u welkom om ons een mail te sturen voor extra informatie. Voor eventuele aanvullingen of tips kunt u ons ook mailen. Uw input wordt erg gewaardeerd!
+            </blockquote>
+            <br />
+            <a href="#" class="btn btn-secondary btn-lg">Stuur uw feedback <i class="fa fa-envelope"></i></a>
+          </div>
+          
+          <div class="col-sm-4 wow fadeInUpBig">
+            <img class="main1-img img-responsive pull-right" src="img/bixby-object-v2.png" alt="Main1 Image">
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <!--Main 2-->
+    <section id="main2">
+      <div class="container">
+        <div class="row">
+          
+          <div class="col-sm-6 wow fadeInUpBig">
+            <img class="main2-img pull-left" src="img/waste.png" alt="Main2 Image">
+          </div>
+        
+          <div class="col-sm-6 margin-30">
+            <h2>Ons doel met Bixby</h2><br />
+            <p>Met deze interactieve prullenbak willen wij een schoon en gezellig Hefpark realiseren. Als dit project goed verloopt willen wij aan de hand van uw feedback het project doorontwikkelen en lanceren op andere locaties binnen Rotterdam. Uw feedback is voor ons dus erg belangrijk!
+            </p><br />
+            
+            <br />
+            <a href="#" class="btn btn-secondary btn-lg">Bezoek ons op Facebook <i class="fa fa-facebook"></i></a>
+          </div>
+
+        </div>
+      </div>
+    </section>
+    
+    <!--Message  --! Hier komt straks ook de informatie van de API--> 
+    <section id="message">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 text-center">
+            <h2 class="white">Muzieklijst</h2>
+            <div id="musicList"></div>
+            <button id="login-button" class="btn btn-primary">Log in with Spotify</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    
+    <!--Bottom-->
+    <section id="bottom">
+      <div class="container">
+        
+        <div class="row margin-40">
+          <div class="col-sm-12 text-center">
+            <ul class="list-inline social">
+              <!-- <li class="wow slideInLeft" data-wow-delay="0.3s"><a href="#"><i class="fa fa-dribbble fa-2x"></i></a></li> -->
+              <li class="wow slideInLeft" ><a href="#"><i class="fa fa-facebook fa-2x"></i></a></li>
+              <li class="wow slideInRight" ><a href="#"><i class="fa fa-twitter fa-2x"></i></a></li>
+              <!-- <li class="wow slideInRight" data-wow-delay="0.3s"><a href="#"><i class="fa fa-github fa-2x"></i></a></li> -->
+            </ul>
+          </div>
+        </div>
+        
+        <div class="row">
+          <div class="col-sm-12 text-center">
+            <p><strong><em>Meld u aan voor de nieuwsbrief</em></strong></p>
+            <form class="form-inline" role="form">
+              <div class="form-group">
+                <label class="sr-only" for="exampleInputEmail2">Email address</label>
+                <input type="email" class="form-control" id="exampleInputEmail2" placeholder="Voer uw email in">
+              </div>
+              <button type="submit" class="btn btn-secondary btn-lg">Aanmelden</button>
+            </form>
+          </div>
+        </div>
+        
+      </div>
+    </section>
+    
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 text-center">
+            <p><small>Copyright &copy; Bixwise the Brave. All rights reserved.</small></p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    
+    <!-- Javascript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/jquery-2.1.0.min.js"><\/script>')</script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/main.js"></script>
+    
+    <script>
+      new WOW().init();
+    </script>
+    
+    <!--API scripts-->
+   <script id="user-profile-template" type="text/x-handlebars-template">
+    <div id="spotifyData">
+      <p>testing</p>
+    </div>
+  </script>
+
+  <script id="oauth-template" type="text/x-handlebars-template">
+    <h2>oAuth info</h2>
+    <dl class="dl-horizontal">
+      <dt>Access token</dt><dd class="text-overflow">{{access_token}}</dd>
+    </dl>
+  </script>
+
+  <script src="js/modernizer-2.7.1.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/handlebars.js/2.0.0-alpha.1/handlebars.min.js"></script>
+  <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+  <script>
+
+    let musicDiv;
+
+    (function() {
+
+
+      var stateKey = 'spotify_auth_state';
+      
+
+      // aanroepen als spotify auth is gelukt
+      // nu kan je spotify api calls doen
+      function weAreLoggedIn(){
+        console.log("loading new releases...");
+        
+        fetch('https://api.spotify.com/v1/browse/new-releases?offset=0&limit=5', {
+          headers: {
+              'Authorization': 'Bearer ' + access_token
+          },
+        })
+          .then((response) => {
+              if (!response.ok) {
+                  throw new Error(response.statusText);
+              }
+              return response.json();
+          })
+          .then(spotifySuccessHandler)
+          .catch(spotifyErrorHandler);
+      }
+      
+
+      /* Hier komt de code voor het terugsturen van de objecten naar de HTML*/
+      function spotifySuccessHandler(data){
+        console.log(data);
+        let artist = data.albums.items[0].artists[0].name;
+        let albums = data.albums.items;
+        hideButton();
+
+        for (let i = 0; i < albums.length; i++) {
+          console.log("hoi")
+          let currentData = albums[i];
+          let musicList = document.getElementById('musicList');
+
+          musicDiv = document.createElement("div");
+          musicDiv.innerHTML = currentData.name;
+          musicList.appendChild(musicDiv);
+          console.log("hoi");
+
+        }
+
+        for (let i = 0; i < artist.length; i++){
+          let currentData = artist[i];
+          let musicList = document.getElementById('musicList');
+          musicDiv = document.createElement("div");
+          musicDiv.innerHTML = currentData.name;
+          musicList.appendChild(musicDiv);
+          console.log("hoi");
+        }
+
+        for (let i = 0; i < albums.length; i++){
+
+          
+        }
+      }
+
+      function spotifyErrorHandler(data){
+        console.log('error', data);
+      }
+
+      /**
+       * Obtains parameters from the hash of the URL
+       * @return Object
+       */
+      function getHashParams() {
+        var hashParams = {};
+        var e, r = /([^&;=]+)=?([^&;]*)/g,
+            q = window.location.hash.substring(1);
+        while ( e = r.exec(q)) {
+           hashParams[e[1]] = decodeURIComponent(e[2]);
+        }
+        return hashParams;
+      }
+
+      /**
+       * Generates a random string containing numbers and letters
+       * @param  {number} length The length of the string
+       * @return {string} The generated string
+       */
+      function generateRandomString(length) {
+        var text = '';
+        var possible = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';
+
+        for (var i = 0; i < length; i++) {
+          text += possible.charAt(Math.floor(Math.random() * possible.length));
+        }
+        return text;
+      };
+
+      var userProfileSource = document.getElementById('user-profile-template').innerHTML,
+          userProfileTemplate = Handlebars.compile(userProfileSource),
+          userProfilePlaceholder = document.getElementById('user-profile');
+
+          oauthSource = document.getElementById('oauth-template').innerHTML,
+          oauthTemplate = Handlebars.compile(oauthSource),
+          oauthPlaceholder = document.getElementById('oauth');
+
+      var params = getHashParams();
+
+      var access_token = params.access_token,
+          state = params.state,
+          storedState = localStorage.getItem(stateKey);
+
+      if (access_token && (state == null || state !== storedState)) {
+        alert('There was an error during the authentication');
+      } else {
+        localStorage.removeItem(stateKey);
+        if (access_token) {
+          $.ajax({
+              url: 'https://api.spotify.com/v1/me',
+              headers: {
+                'Authorization': 'Bearer ' + access_token
+              },
+              success: function(response) {
+                $('#login').hide();
+                $('#loggedin').show();
+                weAreLoggedIn();
+
+              }
+          });
+        } else {
+            $('#login').show();
+            $('#loggedin').hide();
+        }
+
+        function hideButton() {
+          document.getElementById("login-button").style.visibility = "hidden";
+        }
+// <button id="login-button" class="btn btn-primary">Log in with Spotify</button>
+
+        document.getElementById('login-button').addEventListener('click', function() {
+
+          var client_id = 'b3a39c7c5bf842ffa1a56e8560da9f37'; // Your client id
+          var redirect_uri = 'http://localhost:8888'; // Your redirect uri
+
+          var state = generateRandomString(16);
+
+          localStorage.setItem(stateKey, state);
+          var scope = 'user-read-private user-read-email';
+
+          var url = 'https://accounts.spotify.com/authorize';
+          url += '?response_type=token';
+          url += '&client_id=' + encodeURIComponent(client_id);
+          url += '&scope=' + encodeURIComponent(scope);
+          url += '&redirect_uri=' + encodeURIComponent(redirect_uri);
+          url += '&state=' + encodeURIComponent(state);
+
+          window.location = url;
+
+        }, false);
+      }
+    })();
+  </script> 
+   
+    </body>
+</html>
